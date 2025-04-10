@@ -1,0 +1,38 @@
+<body>
+
+<h1>Background Image</h1>
+
+<p>A background image for a p element:</p>
+
+You can specify background images<br>
+for any visible HTML element.<br>
+In this example, the background image<br>
+is specified for a p element.<br>
+By default, the background-image<br>
+will repeat itself in the direction(s)<br>
+where it is smaller than the element<br>
+where it is specified. (Try resizing the<br>
+browser window to see how the<br>
+background image behaves.
+</p>
+
+</body>
+------------------------------------------------------
+body {
+  font-family: cursive;
+  background: #f7740f;
+  color: white;
+  text-align: center;
+  background-image: 
+ /* if need to modify background edit below*/   url('https://c4.wallpaperflare.com/wallpaper/930/438/351/minecraft-minecraft-nether-red-hd-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;}
+/* if need to modify background edit above*/
+
+
+h1 {font-size: 70px; 
+}
+    
+   
+    
